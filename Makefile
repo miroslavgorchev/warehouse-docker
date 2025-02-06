@@ -15,5 +15,3 @@ composer-update:
 data:
 	docker exec laravel bash -c "php artisan migrate:fresh"
 	docker exec laravel bash -c "php artisan db:seed"
-	docker exec laravel bash -c "npm install"
-	docker exec laravel bash -c "npm run build"
